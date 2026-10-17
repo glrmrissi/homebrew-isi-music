@@ -1,16 +1,16 @@
 class IsiMusic < Formula
   desc "Terminal music player for Spotify streaming and local file playback"
   homepage "https://github.com/glrmrissi/isi_music"
-  version "2.0.5"
+  version "2.1.0"
 
   on_linux do
     on_arm do
-      url "https://github.com/glrmrissi/isi_music/releases/download/v2.0.5/isi-music-linux-arm64.tar.gz"
-      sha256 "611d0d5922aef17f2ff3cdc5235c334aca9424a36fa2528ff0fc1143b1f8b8c1"
+      url "https://github.com/glrmrissi/isi_music/releases/download/v2.1.0/isi-music-linux-arm64.tar.gz"
+      sha256 "a06a7108caf781639177b2dcd575118fc9a426666ee6b3570381bbb725a30ff1"
     end
     on_intel do
-      url "https://github.com/glrmrissi/isi_music/releases/download/v2.0.5/isi-music-linux-x86_64.tar.gz"
-      sha256 "29a411448234bf588cfc4ccbc2312c9548d57dd465e2abaf7e524aeabd3d1ec2"
+      url "https://github.com/glrmrissi/isi_music/releases/download/v2.1.0/isi-music-linux-x86_64.tar.gz"
+      sha256 "e3815e8dbb068c69ea278ea5b01a17a9096dce6c3a8637bcef3e7877ae6f3498"
     end
   end
 
